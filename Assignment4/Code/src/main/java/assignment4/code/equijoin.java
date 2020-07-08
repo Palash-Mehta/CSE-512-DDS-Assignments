@@ -94,6 +94,7 @@ public class equijoin
 
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException
     {
+        System.out.println("Hello");
         Configuration config = new Configuration();
         Job j = new Job(config, "equijoin");
         j.setJarByClass(equijoin.class);
